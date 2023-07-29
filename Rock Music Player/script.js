@@ -3,7 +3,7 @@ console.log("Welcome to Rock");
 // Initialize the Variables
 
 let songIndex = 0;
-let audioElement = new Audio('songs/9.mp3');
+let audioElement = new Audio('songs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -11,16 +11,14 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "", coverPath: "covers/2.jpg"},
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "", coverPath: "covers/2.jpg"},
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "", coverPath: "covers/2.jpg"},
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "", coverPath: "covers/2.jpg"},
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "", coverPath: "covers/2.jpg"},
+    {songName: "Teri Meri Baatein", filePath: "", coverPath: "covers/1.jpg"},
+    {songName: "Main Khiladi", filePath: "", coverPath: "covers/2.jpg"},
+    {songName: "Mere Yaaraa", filePath: "", coverPath: "covers/3.jpg"},
+    {songName: "Gun Gun Karta ", filePath: "", coverPath: "covers/4.jpg"},
+    {songName: "Sab Gazab", filePath: "", coverPath: "covers/5.jpg"},
+    {songName: "Show Me The Thumka", filePath: "", coverPath: "covers/6.jpg"},
+    {songName: "O Bedardeya", filePath: "", coverPath: "covers/7.jpg"},
+    {songName: "Brown Munde", filePath: "", coverPath: "covers/9.jpg"},
     
  
 ]
